@@ -1,0 +1,59 @@
+div.polaroid {
+    width: 400px;
+    height: 430px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px ;
+}
+.img1{
+    width: 400px;
+    height: 250px;
+    border-radius: 25px 25px 0px 0px;
+    float: left;
+}
+.img2 {
+    position: absolute;
+    left:600px;
+    top:438px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.word {
+
+    padding-top: 260px;
+    padding-left: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    text-align:left;
+    font-weight:bolder;
+}
+.p1{ 
+    padding-top:2px;
+    padding-left: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:small;
+    font-weight:300px;
+}
+.word1 {
+    padding: 2px;
+    margin: auto;
+    position: absolute;
+    left:670px;
+    top:450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+     
+}
+.word2 {
+    padding: 3px;
+    position: absolute;
+    left:670px;
+    top:465px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color:rgba(0, 0, 0, 0.248) ;
+
+}
