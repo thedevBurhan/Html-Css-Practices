@@ -1,0 +1,40 @@
+.head{
+    float:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    margin-left:10px;
+}
+.flex-container {
+   display: flex;
+   flex-direction: row-reverse;
+ }
+
+.flex-container > div {
+    background-color: white;
+    width: 130px;
+    margin: 5px;
+    text-align: center;
+    line-height:40px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color:gray;
+    text-align: center;
+    font-weight: lighter;
+    margin-top:25px ;
+    cursor: pointer;
+    
+}
+.div1:link,.div1:visited {
+     background-color: white;
+     color: black;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     
+}
+.div1:hover,.div1:active {
+     border:2px solid black;
+     color:black;
+     border-radius: 5px;
+    }

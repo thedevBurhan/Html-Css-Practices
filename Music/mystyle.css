@@ -1,0 +1,112 @@
+div.polaroid {
+    width: 450px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 25px 25px;
+    margin: auto;
+    margin-top: 50px;
+}
+.img1 {
+    width: 450px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+    
+}
+.img2 {
+    position: absolute;
+    left:25px;
+    top:25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.word {
+    padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align:center;
+    font-weight:bold;
+}
+.word1{
+    padding-top: 23px;
+    padding-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    text-align: center;
+    font-weight:200;
+}
+.container{
+    position:relative;
+    top:28px ;
+    left: 40px;
+    background-color: rgba(248, 244, 244, 0.818);
+    width: 380px;
+    height:100px ;
+    border-radius:10px;
+
+}
+.word2{
+    position: absolute;
+    top:30px ;
+    left:90px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight:bold;
+}
+.word3{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+    font-weight:bold;
+    color: rgba(12, 12, 12, 0.5);
+}
+a:link,a:visited{
+    position: absolute;
+    top: 30px;
+    left:270px;
+    color: rgb(26, 108, 203);
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+a:active,a:hover{
+    color: rgb(14, 216, 14);
+}
+.button a:link, a:visited  {
+    position: absolute;
+    top: 520px;
+    left: 585px;
+    width: 380px;
+    height: 40px;
+    background-color:violet;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align:center;
+    padding-top:5px;
+    font-size: large;
+    font-weight: normal;
+}
+
+.button a:hover, a:active  {
+   background-color:blueviolet;
+   box-shadow: 0 8px 16px 0 rgba(215, 40, 238, 0.5), 0 6px 20px 0 rgba(239, 35, 215, 0.8)) ;
+   cursor: pointer;
+}
+.word4{
+    position: absolute;
+    top: 590px;
+    left: 720px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: normal;
+    color: gray;
+}
+
+.word4:hover,.word4:active{
+    color:black;
+    cursor: pointer;
+}
