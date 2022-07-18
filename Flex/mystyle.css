@@ -1,0 +1,98 @@
+.dummy {
+  border: 1px;
+  width: 1000px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 280px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.heading1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: purple;
+}
+.sen1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  font-weight: normal;
+  color: gray;
+  padding-top: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 450px;
+}
+
+.flex-container > div {
+  background-color: rgb(92, 3, 92);
+  box-shadow: black;
+  border-radius: 10px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  color: aliceblue;
+  font-size: 15px;
+}
+.checked {
+  color: orange;
+}
+.flexs-container {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  width: 1000px;
+  margin-top: 120px;
+}
+
+.flexs-container > div {
+  background-color: rgb(92, 3, 92);
+  border-radius: 10px;
+  width: 320px;
+  height: 100%;
+  margin-left: 20px;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: left;
+  margin-top: 20px;
+}
+img {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+h5 {
+  color: white;
+  padding-left: 20px;
+}
+.row2 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: normal;
+  padding: 20px;
+}
+@media (max-width: 1000px) {
+  .flexs-container {
+    flex-direction: column;
+  }
+  .box {
+    flex-direction: column;
+  }
+}

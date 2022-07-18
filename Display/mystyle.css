@@ -1,0 +1,46 @@
+.material-icons {
+    vertical-align: middle;
+    float: left;
+    padding-inline-start: 50px;
+
+}
+
+div.polaroid {
+    width: 350px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 25px 25px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.magic:hover,
+.magic:active {
+    color: gray;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 345px;
+    height: 530px;
+    border-radius: 25px 25px 0px 0px;
+    padding-top: 2px;
+}
+
+.word {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 37px;
+    padding-right: 15px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+
+.word1:active,
+.word1:hover {
+    color: gray;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.heading{
+    margin-top: 275px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;  
+}
+.head{
+    color: blue;
+    font-size: 50px;
+}
+.head1{
+    position: absolute;
+    top: 310px;
+    color: black;
+    font-size: 30px;
+}
+.box{
+    position: absolute;
+    top: 180px;;
+    left: 900px;;
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+input{
+    display: inline-block;
+    border: 2px solid black;
+    border-style:inset;
+    border-radius: 10px;
+    border-color: rgba(115, 106, 106, 0.24);
+    width: 360px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 8px;
+    padding: 10px;
+}
+.button1{
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px ;
+    width: 380px;
+    height:50px ;
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(49, 49, 229, 0.753);
+    cursor: pointer;
+
+}
+.button1:hover{
+    background-color: blue;
+}
+.word{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+.word:hover{
+    color: black;
+}  
+.button2{
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px ;
+    width: 275px;
+    height:50px ;
+    margin-top: 20px;
+    margin-left:65px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(11, 17, 0);
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: rgb(84, 11, 124);
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 570px;
+    left: 930px;
+}  
